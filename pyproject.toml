@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "blender-script-utils"
-version = "0.1.0"
+version = "0.1.1"
 authors = [
   { name="Royalturtle", email="aabut27@gmail.com" },
 ]
@@ -23,3 +23,6 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/royalturtle/BlenderScriptUtils"
 "Bug Tracker" = "https://github.com/royalturtle/BlenderScriptUtils/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
